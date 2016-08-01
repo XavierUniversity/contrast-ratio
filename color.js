@@ -122,7 +122,7 @@ _.prototype = {
 				ratio = 1 / ratio;
 			}
 
-			ratio = Math.round(ratio, 1);
+			ratio = Math.round(ratio, 3);
 
 			return {
 				ratio: ratio,
